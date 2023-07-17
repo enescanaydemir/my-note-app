@@ -2,7 +2,7 @@
   "name": "my-note-app",
   "version": "0.0.1",
   "description": "A Quasar Project",
-  "productName": "my-note-app",
+  "productName": "Note App",
   "author": "Enes Can Aydemir <enescan_aydemir@hotmail.com>",
   "private": true,
   "scripts": {
