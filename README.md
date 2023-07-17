@@ -1,3 +1,5 @@
+# my-note-app (my-note-app)
+
 # My Note App
 
 This is a simple note-taking application built with Vue.js, Quasar Framework, and Node.js. It allows users to create, edit, and delete notes, providing a convenient way to manage personal or work-related information.
@@ -16,26 +18,43 @@ This is a simple note-taking application built with Vue.js, Quasar Framework, an
 
 Before getting started, make sure you have the following software installed on your system:
 
-- Node.js 
-- npm 
+- Node.js
+- npm
 
-### Steps
+## Install the dependencies
+```bash
+yarn
+# or
+npm install
+```
 
-1. Clone the repository:
+### Start the app in development mode (hot-code reloading, error reporting, etc.)
+```bash
+quasar dev
+```
 
-   ```bash
-   git clone https://github.com/your-username/my-note-app.git
 
-2. Navigate to the project directory:
+### Lint the files
+```bash
+yarn lint
+# or
+npm run lint
+```
 
-    cd my-note-app
 
-3. Install the dependencies:
+### Format the files
+```bash
+yarn format
+# or
+npm run format
+```
 
-    npm install
 
-4. Start the development server:
 
-    npm run dev
+### Build the app for production
+```bash
+quasar build
+```
 
-5. Open your web browser and visit http://localhost:8080 to access the application.
+### Customize the configuration
+See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js).
