@@ -16,8 +16,8 @@ This is a simple note-taking application built with Vue.js, Quasar Framework, an
 
 Before getting started, make sure you have the following software installed on your system:
 
-- Node.js (version X.X.X)
-- npm (version X.X.X)
+- Node.js 
+- npm 
 
 ### Steps
 
